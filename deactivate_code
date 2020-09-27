@@ -1,0 +1,5 @@
+1.Deactivate controller
+2.check for valid barcode: SELECT cd.code_status FROM FH_Codes.codes_6346 cd WHERE code = 'RFCD3434' LIMIT 1
+3.above is written from    SELECT cd.code_status FROM " . $this->DBCODES . ".codes_" . $this->ACCID . " cd  WHERE code = '$barCode' LIMIT 1
+4.insert into cwc_deactivatecode_log 
+5.check DBCODES in setting db name actualyy FH_enagage is from which has user_name_code
