@@ -1,0 +1,3 @@
+1.ReportsController  has CLUSTER,MARKET TYPE,SUB TYPE
+2.to check cluster exists or not ,in cwc_clusterclassification 
+3. if not exists inserts into cwc_clusterclassification else update
