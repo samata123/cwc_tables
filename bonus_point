@@ -1,7 +1,7 @@
 1.Headings are: Membership no and Points
 2.uploading table:cwc_bonuspoint_uploadfiles and also cwc_bonuslog
 3.check memeber exit or not in bonus mode: WHERE usr_code='$membershipno' AND usr_is_active= 1 AND usr_role_id != 0
-4.
+4.Bonus ponit controller
 
 
 
