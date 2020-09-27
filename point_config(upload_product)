@@ -4,3 +4,4 @@
 4.check product subcode exits or not cwc_pointconfig ,SELECT point_product_code FROM cwc_pointconfig  where point_product_code = '$productCode' AND point_sku='$sku' AND point_sub_type = '$subType' AND point_status = 1
 4.insert into cwc_pointconfig_log 
 5.insert cwc_pointconfig for valid data.
+
